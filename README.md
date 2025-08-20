@@ -14,7 +14,7 @@ A Python application that helps you track and calculate your daily work hours, w
 ## 🚀 Quick Start
 
 ### For End Users (Windows)
-1. Download the latest release from the [Releases](https://github.com/yourusername/work-hours-tracker/releases) page
+1. Download the latest release from the [Releases](https://github.com/KatEston23/work-hours-tracker/releases) page
 2. Extract the ZIP file
 3. Double-click `Run_Work_Hours_Tracker.bat` or `Work_Hours_Tracker_COMPILED.exe`
 4. Follow the on-screen instructions
@@ -28,7 +28,7 @@ A Python application that helps you track and calculate your daily work hours, w
 #### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/work-hours-tracker.git
+   git clone https://github.com/KatEston23/work-hours-tracker.git
    cd work-hours-tracker
    ```
 
@@ -126,7 +126,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🆘 Support
 
 If you encounter any issues:
-1. Check the [Issues](https://github.com/yourusername/work-hours-tracker/issues) page
+1. Check the [Issues](https://github.com/KatEston23/work-hours-tracker/issues) page
 2. Create a new issue with detailed information
 3. Include your operating system and Python version
 
@@ -138,4 +138,4 @@ If you encounter any issues:
 
 ---
 
-**Note**: Replace `yourusername` in the GitHub URLs with your actual GitHub username when you create the repository.
+**Note**: This repository is maintained by [KatEston23](https://github.com/KatEston23).
