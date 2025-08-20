@@ -24,7 +24,7 @@ class WorkHoursTracker:
         self.time_entries = self._collect_time_entries()
         
         if not self.time_entries:
-            print("⚠ No time entries recorded.")
+            print("⚠️ No time entries recorded.")
             return
         
         worked_hours, extra_hours = self._calculate_hours()
@@ -67,7 +67,7 @@ class WorkHoursTracker:
             if self._is_valid_date(date_input):
                 return date_input
             
-            print("⚠ Invalid date format. Please use YYYY-MM-DD (example: 2025-01-15)")
+            print("⚠️ Invalid date format. Please use YYYY-MM-DD (example: 2025-01-15)")
     
     def _is_valid_date(self, date_string: str) -> bool:
         """Validate date format and ensure it's not in the future."""
@@ -105,7 +105,7 @@ class WorkHoursTracker:
                 entries.append([self.selected_date, entry_type, time_input])
                 entry_counter += 1
             else:
-                print("⚠ Invalid format. Use HH.MM (example: 07.30)")
+                print("⚠️ Invalid format. Use HH.MM (example: 07.30)")
         
         return entries
     
